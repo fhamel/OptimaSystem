@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<page>
+	<!-- Page title -->
+	<title>Affichez - Accueil</title>
+	
+	<!-- Author or the Page -->
+	<author>Felix Hamel</author>
+	
+	<!-- Locales -->
+	<language>
+	
+		<!-- Global -->
+		<FACEBOOK>http://www.facebook.com/affichez?fref=ts</FACEBOOK>
+		<TWITTER>http://twitter.com/Affichez</TWITTER>
+	
+		<!-- French -->
+		<fr>
+			<SLOGAN>
+				La pub qui accroche
+			</SLOGAN>
+			<SITE_EN_CONSTRUCTION>
+				Notre site internet est présentement en construction pour mieux vous servir !
+			</SITE_EN_CONSTRUCTION>
+			<CONTACT>
+				Vous pouvez tout de même nous contacter à l'aide des informations suivantes pendant les travaux :
+			</CONTACT>
+			<COURRIEL>
+				Adresse courriel
+			</COURRIEL>
+			<TELEPHONE>
+				Téléphone
+			</TELEPHONE>
+			<KIT_MEDIA>
+				Kit Média
+			</KIT_MEDIA>
+		</fr>
+		
+		<!-- English -->
+		<en>
+			<SLOGAN>
+				La pub qui accroche
+			</SLOGAN>
+			<SITE_EN_CONSTRUCTION>
+				Our website is currently under construction to serve you better!
+			</SITE_EN_CONSTRUCTION>
+			<CONTACT>
+				You can still contact us using the following informations :
+			</CONTACT>
+			<COURRIEL>
+				Email address
+			</COURRIEL>
+			<TELEPHONE>
+				Telephone
+			</TELEPHONE>
+			<KIT_MEDIA>
+				Media Kit (In French)
+			</KIT_MEDIA>
+		</en>
+	</language>
+</page>
