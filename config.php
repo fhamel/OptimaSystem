@@ -1,10 +1,17 @@
 <?php
 
 	/**
-	*	OptimaSystem developed by OptimaWeb, 2012
+	*	OptimaSystem, 2012
 	*	Version 1.0
 	*/
+	
+	// -----------------------------------------------------------------------//
+	// --------- DO NOT EDIT IF YOU DON'T KNOW WHAT YOU'RE DOING ! ---------- //
+	// -----------------------------------------------------------------------//
 
+	// Site
+	$GLOBALS["SITE_NAME"] = "OptimaSystem";
+	
 	// Scripts
 	$GLOBALS["INCLUDES_FOLDER"] = "includes";
 	
@@ -19,7 +26,6 @@
 	$GLOBALS["PAGES_FOLDER"] = "pages";
 	$GLOBALS["FILE_FOLDER"] = "files";
 	$GLOBALS["IMAGE_FOLDER"] = "img";
-	
 	$GLOBALS["DEFAULT_PAGE"] = "index";
 	$GLOBALS["PAGE_NAME_STRUCTURE"] = ".page.php";
 	$GLOBALS["PAGE_INFO_STRUCTURE"] = ".page.xml";
@@ -32,8 +38,8 @@
 	$GLOBALS["FOOTER_TEMPLATE"] = "templates/footer.template.html";
 	
 	// INFORMATIONS
-	$GLOBALS["META_DESCRIPTION"] = "Affichez est une entreprise de la Ville de Québec spécialisée dans la confection et la distribution d'accroche-porte.";
-	$GLOBALS["META_KEYWORDS"] = "accroche, porte, accroche-porte, quebec, québec, poignée, publicité, publicite, pub, distribution, professionnel, simple, efficace, fiable, canada";
-	$GLOBALS["META_AUTHOR"] = "Affichez.ca";
+	$GLOBALS["META_DESCRIPTION"] = "";
+	$GLOBALS["META_KEYWORDS"] = "";
+	$GLOBALS["META_AUTHOR"] = "";
 	
 ?>

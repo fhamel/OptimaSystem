@@ -1,7 +1,7 @@
 <?php
 
 	/**
-	*	OptimaSystem developed by OptimaWeb, 2012
+	*	OptimaSystem, 2012
 	*	Version 1.0
 	*/
 
@@ -27,9 +27,6 @@
 	$pageManager = new PageManager($pageName);
 	if($pageManager->exists() == false)
 	{
-		/*echo "<h1>OptimaSystem</h1>";
-		echo "<h2>Error: Page not found.</h2>";
-		exit;*/
 		header('Location: index.html');
 	}
 	
@@ -37,14 +34,11 @@
 	$templateManager = new TemplateManager();
 	if($templateManager->exists() == false)
 	{
-		/*echo "<h1>OptimaSystem</h1>";
-		echo "<h2>Error in TemplateManager</h2>";
-		exit;*/
 		header('Location: index.html');
 	}
 	
 	// Setup the page
-	$templateManager->setParam("{PAGE_TITLE}", $pageManager->getPageTitle());
+	$templateManager->setParam("{PAGE_TITLE}", $GLOBALS["SITE_NAME"] . " - " . $pageManager->getPageTitle());
 	
 	// Display the page
 	echo $templateManager->getHeader();

@@ -1,10 +1,10 @@
 <?php
 	
 	/**
-	*	OptimaSystem developed by OptimaWeb, 2012
+	*	OptimaSystem, 2012
 	*	Version 1.0
 	*/
-	
+
 	class Language
 	{
 		const FRENCH = "fr";

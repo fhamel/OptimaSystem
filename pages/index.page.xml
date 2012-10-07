@@ -1,60 +1,27 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
 <page>
 	<!-- Page title -->
-	<title>Affichez - Accueil</title>
+	<title>Index</title>
 	
-	<!-- Author or the Page -->
-	<author>Felix Hamel</author>
+	<!-- Author or the Page (Not used for the moment) -->
+	<author>Tester</author>
 	
 	<!-- Locales -->
 	<language>
 	
 		<!-- Global -->
-		<FACEBOOK>http://www.facebook.com/affichez?fref=ts</FACEBOOK>
-		<TWITTER>http://twitter.com/Affichez</TWITTER>
+		<!-- PUT THE GLOBAL LOCALES HERE -->
 	
-		<!-- French -->
-		<fr>
-			<SLOGAN>
-				La pub qui accroche
-			</SLOGAN>
-			<SITE_EN_CONSTRUCTION>
-				Notre site internet est présentement en construction pour mieux vous servir !
-			</SITE_EN_CONSTRUCTION>
-			<CONTACT>
-				Vous pouvez tout de même nous contacter à l'aide des informations suivantes pendant les travaux :
-			</CONTACT>
-			<COURRIEL>
-				Adresse courriel
-			</COURRIEL>
-			<TELEPHONE>
-				Téléphone
-			</TELEPHONE>
-			<KIT_MEDIA>
-				Kit Média
-			</KIT_MEDIA>
-		</fr>
-		
+		<!-- Specific Language -->
+		<!-- EXAMPLE -->
 		<!-- English -->
 		<en>
-			<SLOGAN>
-				La pub qui accroche
-			</SLOGAN>
-			<SITE_EN_CONSTRUCTION>
-				Our website is currently under construction to serve you better!
-			</SITE_EN_CONSTRUCTION>
-			<CONTACT>
-				You can still contact us using the following informations :
-			</CONTACT>
-			<COURRIEL>
-				Email address
-			</COURRIEL>
-			<TELEPHONE>
-				Telephone
-			</TELEPHONE>
-			<KIT_MEDIA>
-				Media Kit (In French)
-			</KIT_MEDIA>
+			<HELLO_WORLD>Hello World !</HELLO_WORLD>
 		</en>
+		<!-- French -->
+		<fr>
+			<HELLO_WORLD>Bonjour le monde !</HELLO_WORLD>
+		</fr>
+		
 	</language>
 </page>
